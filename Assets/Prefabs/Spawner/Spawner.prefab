@@ -48,7 +48,7 @@ MonoBehaviour:
   enemies:
   - {fileID: 257194312347319631, guid: 4ca8148c2d774a24fa18a2c5a97c0d56, type: 3}
   - {fileID: 408888955088663093, guid: 4f317f455b800ce49bc263ac1ab4900e, type: 3}
-  spawnDelay: 2
+  spawnDelay: 0.5
 --- !u!1 &8103289346084369642
 GameObject:
   m_ObjectHideFlags: 0
