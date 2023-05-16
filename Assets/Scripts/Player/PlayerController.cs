@@ -14,6 +14,11 @@ public class PlayerController : MonoBehaviour
 
     private Vector2 movement;
 
+    public float health;
+    public float maxHealth;
+
+   // public float speed;
+    public float originalSpeed;
 
 
     void Start()
@@ -53,7 +58,7 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         // Move player based on movement input
-        transform.Translate(movement * moveSpeed * Time.fixedDeltaTime, Space.World);
+        transform.Translate(movement * moveSpeed *Time.fixedDeltaTime , Space.World );
     }
 
     public void EquipWeapon(Weapon newWeapon)

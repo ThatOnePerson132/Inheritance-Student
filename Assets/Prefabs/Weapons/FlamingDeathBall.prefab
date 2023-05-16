@@ -228,7 +228,7 @@ MonoBehaviour:
   canAttack: 1
   attackDuration: 0.2
   attackRate: 250
-  damage: 50
+  damage: 150
   swingSpeed: 0
   swingDegreess: 0
   spinSpeed: 1000
